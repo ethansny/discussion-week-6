@@ -1,0 +1,130 @@
+body {
+    line-height: 2;
+}
+
+
+header,
+nav {
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: antiquewhite;
+
+}
+
+nav ul li {
+    background-color: lightblue;
+    display: inline-flex;
+    font-size: 110%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+a:visited {}
+
+nav a.current {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: black;
+
+}
+
+
+h1 {
+    font-size: 200%;
+
+}
+
+h2 {
+    font-size: 150%;
+}
+
+h3 {
+    font-size: 140%;
+
+}
+
+h1,
+h2,
+h3 {
+    margin: 1%;
+
+}
+
+.grid {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+}
+
+.grid div {
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 6%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid img {
+    width: 90%;
+}
+
+
+.grid div:nth-child(3n+1) {
+    /* Set box shadow */
+}
+
+.grid div:nth-child(3n) {
+    /* Set box shadow */
+}
+
+.grid div:nth-child(3n+2) {
+    /* Set box shadow */
+}
+
+
+p+p {
+    text-indent: 50px;
+}
+
+p {
+    margin: 1%;
+}
+
+
+.grid ul li {
+    line-height: 1.5;
+    list-style-image: url('../images/sketchbook.png');
+    margin-left: 10%;
+    padding-left: 2%;
+}
+
+.thanks {
+    font-size: 140%;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-columns: auto;
+}
+
+.intro h2 {
+    padding-left: 10%;
+    background-color: antiquewhite;
+}
+
+main img {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 70%;
+}
